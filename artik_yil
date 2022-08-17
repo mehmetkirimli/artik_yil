@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class artikyil {
+    public static void main(String[] args) {
+
+        int year, mod;
+        Scanner bjk = new Scanner(System.in);
+        System.out.println("Yil giriniz :");
+        year = bjk.nextInt();
+        mod = year % 4;
+        if (mod == 0) {
+            System.out.println(year + " yili artik yildir .");
+        } else {
+            System.out.println(year + " yili artik yil degildir .");
+        }
+
+
+    }
+}
